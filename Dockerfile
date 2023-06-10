@@ -5,7 +5,7 @@ RUN pacman -Sy
 RUN pacman -S --noconfirm ttyd chromium
 
 
-EXPOSE 3000
+EXPOSE 80
 WORKDIR /root
 
 CMD ["/bin/ttyd","-p" ,"80","/bin/bash"]
