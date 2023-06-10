@@ -8,4 +8,4 @@ RUN pacman -S --noconfirm ttyd chromium
 EXPOSE 80
 WORKDIR /root
 
-CMD ["/bin/ttyd","-p" ,"80","/bin/bash"]
+CMD ["/bin/ttyd","-p" ,"81","/bin/bash"]
